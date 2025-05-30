@@ -1,0 +1,29 @@
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-image: url("/public/img/hastane.jpg");
+  /* width: 100vh; */
+  /* height: 100vh; */
+}
+
+.relative {
+  position: relative;
+  background-color: rgb(211, 209, 209);
+}
+.absolite {
+  text-align: center;
+  align-items: center;
+  color: white;
+  font-size: 25px;
+  position: absolute;
+  padding: 10px;
+  top: 18%;
+  left: 35%;
+  border-radius: 25px;
+  width: 200px;
+  border: 1px solid grey;
+  &: hover;
+}
+.none {
+  display: none;
+}

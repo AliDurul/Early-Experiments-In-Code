@@ -1,0 +1,15 @@
+div.card {
+
+  .img-div {
+    overflow: hidden;
+  }
+
+  img {
+    transition: all 0.4s ease-in-out;
+    height: 100%;
+
+    &:hover {
+      transform: scale(1.25);
+    }
+  }
+}

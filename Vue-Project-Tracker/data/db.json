@@ -1,0 +1,28 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Stock App",
+      "details": "This is stock app where you can track your assets eastly.",
+      "complete": true
+    },
+    {
+      "id": 2,
+      "title": "Deneme 2",
+      "details": "Lorem ipsum dolor sit amet consectetur a elit. Esse, non?",
+      "complete": true
+    },
+    {
+      "id": 3,
+      "title": "Deneme 3",
+      "details": "Lorem ipsum t consectetur adipisicing elit. Esse, non!",
+      "complete": false
+    },
+    {
+      "id": 4,
+      "title": "Deneme 4",
+      "details": "Lorem ipsum dolor sit amet consectetur adipisicing e",
+      "complete": true
+    }
+  ]
+}

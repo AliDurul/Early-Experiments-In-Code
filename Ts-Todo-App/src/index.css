@@ -1,0 +1,6 @@
+body {
+  background-image: url("../public/bgImg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  backdrop-filter: blur(1px);
+}

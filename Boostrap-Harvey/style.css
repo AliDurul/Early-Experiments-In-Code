@@ -1,0 +1,82 @@
+html {
+  scroll-behavior: smooth;
+}
+
+section {
+  scroll-snap-align: start;
+  scroll-margin-top: 50px;
+}
+
+
+.hero {
+  background: url(./img/banner.jpeg) center;
+  object-fit: cover;
+  /* height: calc(100vh - 56px); */
+  height: 100vh;
+  background-size: cover;
+}
+
+.circle {
+  width: 150px;
+  height: 150px;
+  text-align: center;
+
+  & i {
+    padding-top: 30px;
+  }
+}
+
+.cards img {
+  max-height: 200px;
+  object-fit: cover;
+  object-position: center bottom;
+}
+
+#aboutus  {
+    height: calc(100vh - 56px);
+    padding-top: 80px;
+
+    & img{
+
+        min-height: 304px;
+    }
+}
+
+#ourteam {
+    height: calc(100vh - 56px);
+    padding-top: 70px;
+
+
+  & a {
+    text-decoration: none;
+    height: 80px;
+    width: 80px;
+    background-color: black;
+    color: white;
+    display: inline-block;
+    border-radius: 50px;
+    /* transition: color 1s; */
+
+    & :hover {
+      color: brown;
+    }
+  }
+
+  & i {
+    padding: 25px;
+  }
+  & img {
+    width: 250px;
+    border: 10px solid #cccccc;
+    margin: 0 auto;
+  }
+}
+
+#contact {
+  background-image: url(./img/map.jpeg);
+  background-size: cover;
+
+  & input {
+    padding: 10px;
+  }
+}
